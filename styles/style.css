@@ -156,10 +156,11 @@ main{
 .enjoyable-feature-image img{
     width: 520px;
     height: 750px;
+    position: relative;
 }
 .experience{
-    width: 340px;
-    font-size: 60px;
+    width: 240px;
+    font-size: 40px;
     line-height: 30px;
     font-weight: 700;
     color: white;
@@ -168,6 +169,9 @@ main{
     text-align: center;
     border-radius: 10px;
     margin-bottom: 130px;
+    position: relative;
+    left: 190px;
+    bottom: 160px;
 }
 #experience{
     font-size: 20px;
@@ -237,9 +241,20 @@ main{
  }
  .sponsor-container{
     display: flex;
-    gap: 100px;
+    gap: 70px;
  }
  .sponsor-container img{
     filter: grayscale(100%);
+    margin-bottom: 100px;
  }
+ /*--------------------
+  Footer Styles
+-------------------- */
+.footer-section{
+    width: 1100px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffe2e2;
+}
 
