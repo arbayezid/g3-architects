@@ -167,9 +167,38 @@ main{
     padding: 50px 0px 30px 0px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 130px;
 }
 #experience{
     font-size: 20px;
     font-weight: 400;
+}
+/*-----------------------
+ Work Details Styles 
+ --------------------*/
+.work-details-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.work-details-description{
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.work-details-container{
+    display: flex;
+    text-align: center;
+}
+.details{
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 45px 30px;
+}
+#email-details{
+    padding: 45px;
+}
+.details:hover{
+    transform: rotate(10deg);
+    transition: 1s;
 }
 
