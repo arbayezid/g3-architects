@@ -188,17 +188,58 @@ main{
 .work-details-container{
     display: flex;
     text-align: center;
+    margin-bottom: 160px;
 }
 .details{
     border: 1px solid #FF900E;
     border-radius: 10px;
     padding: 45px 30px;
 }
+.details img{
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+.details h3{
+    font-size: 30px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+.details h4{
+    font-weight: 600;
+    color: #727272;
+
+}
+#clients-details{
+    width: 130px;
+}
 #email-details{
+    width: 100px;
     padding: 45px;
 }
 .details:hover{
     transform: rotate(10deg);
     transition: 1s;
 }
+/*----------------
+ Sponsor Styles
+ ---------------- */
+ .sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+ }
+ .sponsor-description{
+    color: #727272;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .sponsor-container{
+    display: flex;
+    gap: 100px;
+ }
+ .sponsor-container img{
+    filter: grayscale(100%);
+ }
 
